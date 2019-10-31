@@ -1,0 +1,128 @@
+@charset "utf-8";
+/*其他分页的样式表*/
+
+/*相册页面样式表*/
+div.photo{
+	color:#FFFFFF;
+	margin:5%;
+	padding:2%;
+	text-align:left;
+	font-family:微软雅黑;
+	font-size:24px;
+	text-shadow:1px 1px 1px #808080;
+	text-indent:4em;
+	line-height:35px;
+}
+div.photo p{
+	margin-left:8px;
+}
+div.photo img{
+    border-radius:20px;
+	margin-left:5%;
+	width:90%;
+}
+/*相册页面样式表*/
+
+/*定义的全局样式*/
+a{	
+	text-decoration:none;
+}
+body{
+	background-color:#000;
+	background-repeat: repeat-y;
+	background-repeat: repeat-x;
+	color:#4169E1;
+	margin:0px;
+	padding:0px
+}
+/*定义的全局样式*/
+
+/*定义书签样式*/
+.jump{
+	margin-left:30%;
+	margin-right:30%;
+	padding:5px;
+	background-color:#0e1720;
+	text-align:center;
+	font-size:25px;
+	color:#FFFFFF;
+	font-weight:normal;
+	border-radius:10px;
+}
+/*页面书签样式*/
+
+/*页面标题栏的样式*/
+div.head{
+	margin:auto;
+	width:100%;
+	padding:0;
+	background-color:#F5F5F5;
+	text-align:center;
+}
+div.head a{
+	color:#FFDAB9;
+}
+ul.headul{
+	margin-top:0px;
+	margin-bottom:20px;
+	padding:0;
+    list-style-type:none;
+	width=100%;
+	overflow:hidden;
+	background-color:rgb(0,0,0,1);
+}
+ul.headul a:link,a:visited{
+    display:block;
+    font-weight:bold;
+    color:#E1FFFF;
+    text-align:center;
+    padding:6px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+ul.headul a:hover,a:active{
+    background-color:#6495ED;
+	color:#000000;
+}    
+ul.headul li{
+	display:inline;
+	float:left;
+	width:16.6%;
+	color:#4169E1;
+}
+div.headtitle h1{
+	font-family:微软雅黑;
+	font-size:50px;
+	margin-top:-250px;
+	margin-bottom:0px;
+	margin-left:20%;
+	color:#FFFFFF;
+	font-weight:bold;
+	text-align:center;
+    text-shadow: 3px 3px 3px #6495ED;
+}
+div.headtitle h3{
+	font-family:'微软雅黑';
+	font-size:20px;
+	margin-top:10px;
+	margin-bottom:150px;
+	margin-left:20%;
+	color:#FFFFFF;
+	font-weight:normal;
+	text-align:center;
+	text-shadow: 1px 1px 1px #6495ED;
+}
+/*页面标题栏的样式*/
+
+
+/*页面页脚的样式*/
+div.end{
+	background-color:#191f24;
+	margin:auto;
+	text-align:center;
+	width:100%;
+	float:left;
+	color:#dbb395;
+}
+
+/*页面页脚的样式*/

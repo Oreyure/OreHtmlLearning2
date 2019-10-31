@@ -1,0 +1,175 @@
+@charset "utf-8";
+/*定义的全局样式*/
+a{	
+	text-decoration:none;
+}
+body{
+	background-color:#000;
+	background-repeat: repeat-y;
+	background-repeat: repeat-x;
+	color:#DC143C;
+	margin:0px;
+	padding:0px
+}
+	
+	
+/*页面标题栏的样式*/
+div.head{
+	margin:auto;
+	width:100%;
+	padding:0;
+	background-color:#F5F5F5;
+	text-align:center;
+}
+div.head a{
+	color:#FFDAB9;
+}
+ul.headul{
+	margin-top:0px;
+	margin-bottom:20px;
+	padding:0;
+    list-style-type:none;
+	width=100%;
+	overflow:hidden;
+	background-color:rgb(0,0,0,1);
+}
+ul.headul a:link,a:visited{
+    display:block;
+    font-weight:bold;
+    color:#FFFFFF;
+    text-align:center;
+    padding:6px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+ul.headul a:hover,a:active{
+    background-color:#FF7F50;
+	color:#000000;
+}    
+ul.headul li{
+	display:inline;
+	float:left;
+	width:16.6%;
+	color:#F5F5F5;
+}
+div.headtitle h1{
+	font-family:微软雅黑;
+	font-size:45px;
+	margin-top:-175px;
+	margin-bottom:0px;
+	margin-left:6%;
+	color:#FFFFFF;
+	font-weight:bold;
+	text-align:left;
+    text-shadow: 3px 3px 3px #FF7F50;
+}
+div.headtitle h3{
+	font-family:'微软雅黑';
+	font-size:20px;
+	margin-top:5px;
+	margin-bottom:150px;
+	margin-left:6%;
+	color:#FFFFFF;
+	font-weight:normal;
+	text-align:left;
+	text-shadow: 1px 1px 1px #808080;
+}
+/*页面标题栏的样式*/
+
+/*页面链接文本的样式*/
+div.textleft img{
+    border-radius:15px;
+}
+
+div.textright{
+	text-align:left;
+    width:40%;
+	float:right;
+	margin:auto;
+	padding-right:5%;
+	padding-left:0px;
+}
+div.textleft{
+	width:50%;
+	float:left;
+	margin:auto;
+    padding:20px;
+	
+}
+div.textright a:link,a:visited{
+    display:block;
+    font-weight:bold;
+    color:#FFA07A;
+    text-align:center;
+	font-size:20px;
+    padding:6px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+div.textright a:hover,a:active{
+    background-color:#FF7F50;
+	color:#000000;
+}    
+div.textright h2{
+    font-family:微软雅黑;
+	color:#FFFFFF;
+	font-size:35px;
+	text-shadow:2px 2px 2px #808080;
+}
+div.textright p{
+    font-family:微软雅黑;
+	color:#FFFFFF;
+	font-size:17px;
+	text-shadow:1px 1px 1px #808080;
+}
+/*页面链接文本的样式*/
+
+/*页面页脚的样式*/
+div.end{
+	background-color:#191f24;
+	margin:auto;
+	text-align:center;
+	width:100%;
+	float:left;
+	color:##dbb395;
+}
+
+/*页面页脚的样式*/
+
+/*页面页脚的样式*/
+div.textmain{
+    text-align:left;
+    width:80%;
+	margin:auto;
+	padding:7%;
+}
+div.textmain p{
+    text-align:left;
+    font-size:23px;
+	color:#FFFAF0;
+	line-height: 200%;
+	text-indent:4em;
+}
+div.textmain h3{
+    text-align:center;
+    font-size:35px;
+	color:#FFFAF0;
+}
+div.textmain h2{
+    text-align:center;
+    font-size:45px;
+	color:#FFFAF0;
+}
+div.textmain a:link,a:visited{
+    display:block;
+    font-weight:bold;
+    color:#FFFFFF;
+    text-align:center;
+    padding:6px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+div.textmain a:hover,a:active{
+    background-color:#FF7F50;
+	color:#000000;
+/*页面页脚的样式*/
