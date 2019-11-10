@@ -1,0 +1,116 @@
+@charset "utf-8";
+/*样式表初始化*/
+body{
+	margin:auto;
+	padding-top:5%;
+	padding-left:30%;
+	padding-right:30%;
+}
+/*定义下拉菜单的样式表*/
+ul.listul{
+	margin-top:0px;
+	margin-bottom:20px;
+	padding:0;
+	width:80px;
+	position:relative;
+    left:50px;
+	top:100px;
+	background-color:#443300;
+}
+ul.listul a:link,a:visited{
+    display:block;
+    font-weight:bold;
+    color:#FFFFFF;
+    text-align:left;
+    padding:6px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+ul.listul a:hover,a:active{
+    background-color:#FFA500;
+	color:#000000;
+}    
+li.icon5 a:hover,a:active{
+	visibility:hidden;
+}    
+ul.listul li{
+	display:inline;
+	width:16.6%;
+	color:#4169E1;
+}
+
+
+/*定义网页标题的样式表*/
+div.headtitle{
+	background-image:url(../images/bg1.png);
+	height:73px;
+	width:115px;
+}
+/*定义各浮动标签的样式表*/
+ul.icon>li{
+	margin:5px;
+	float:left;
+	list-style-type:none;
+	background-image:url(../images/bg1.png);
+}
+
+li.icon1{
+	background-position:-113px 0px;
+	height:87px;
+	width:87px;
+}
+li.icon2{
+	background-position:-27px -75px;
+	height:33px;
+	width:22px;
+}
+li.icon3{	
+    background-position:-30px -114px;
+	height:33px;
+	width:33px;
+}
+li.icon4{
+	background-position:-426px -156px;
+	height:33px;
+	width:80px;
+}
+li.icon5{
+	background-position:-70px -107px;
+	height:33px;
+	width:33px;
+}
+li.icon6{	
+    background-position:-55px -74px;
+	height:33px;
+    width:33px;
+}
+li.icon7{
+	background-position:-102px -102px;
+	height:44px;
+	width:78px;
+}
+li.icon8{
+	background-position:-162px -178px;
+	height:88px;
+	width:41px;
+}
+li.icon9{	
+	background-position:-113px 0px;
+	height:87px;
+	width:87px;
+}
+li.icon10{
+	background-position:-578px -135px;
+	height:33px;
+	width:40px;
+}
+li.icon11{
+    background-position:-55px -74px;
+	height:33px;
+    width:33px;
+}
+li.icon12{	
+	background-position:-162px -276px;
+	height:88px;
+	width:41px;
+}
