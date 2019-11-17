@@ -1,0 +1,50 @@
+@charset "utf-8";
+*{
+	margin:0px;
+	padding:0px;
+}
+.box{
+	width:90%;
+	height:100px;
+	margin:0 auto;
+}
+div.box ul,li{
+	list-style: none;
+}
+div.box ul{
+	position:relative;
+	display:flex;
+}
+div.box li{
+	flex:1;
+	height:30px;
+}
+div.box input{
+	display:none;
+}
+div.box input+label{
+	display:block;
+	width:100%;
+	height:100%;
+	background:#FFF;
+	font-size:18px;
+	text-align:center;
+	line-height:30px;
+	color:#000;
+}
+div.box input+label+div{
+	display:none;
+	position:absolute;
+	left:0;
+	top:30px;
+	width:100%;
+	height:100%;
+}
+div.box input:checked+label{
+	background:#000000;
+	color:#fff;
+}
+div.box input:checked+label+div{
+	display:block;
+	background-color:#000000;
+}
