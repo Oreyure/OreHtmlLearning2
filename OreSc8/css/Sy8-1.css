@@ -1,0 +1,68 @@
+body{
+	background:#B0E0E6;
+    margin:0;
+    padding:0;
+}
+table.tablein{
+	width:400px;
+	height:400px;
+	margin:auto;
+	background:#2F4F4F;
+	color:#FFFFFF;
+	margin-top:30px;
+	border-spacing: 0px;
+}
+table.tablein td{
+	padding:0px;
+}
+table.tablein th{
+	padding:0px;
+}
+table.tablein h2{
+	padding:0;
+	margin:0;
+	margin-top:4px;
+}
+table.tablein fieldset{
+	width:350px;
+	margin-left:25px;
+	margin-right:25px;
+	margin-bottom:15px;
+}
+table.tablein input{
+	width:10px;
+}
+tr.tableout1 input{
+	width:100px;
+	margin-right:10px;
+}
+select.select1{
+	width:150px;
+}
+tr.radio1{
+	font-size:12.5px;
+}
+tr.tableout2 input{
+	width:140px;
+}
+tr.tableout3 input{
+	width:20px;
+}
+td.tableout4 input{
+	width:60px;
+}
+tr.tableout5 input{
+	width:70px;
+	position:relative;
+	left:140px;
+	margin-bottom:10px;
+}
+table.tableout td{
+	text-align:left;
+	vertical-align:middle;
+}
+table.tableout td{
+	border-top: 4px solid #2F4F4F;
+}
+
+

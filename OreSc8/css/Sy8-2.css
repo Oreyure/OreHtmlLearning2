@@ -1,0 +1,43 @@
+body{
+    background: url(../images/banner.jpg)no-repeat;
+	background-size: cover;
+}
+h2{
+	text-align:center;
+	color:#FFFFFf;
+}
+div.main{
+	margin:5%;
+	width:90%;
+	height:600px;
+	background:rgba(0,139,139,0.5);
+	border:1px solid #FFFFFF; 
+	border-radius:5px
+}
+.img2{
+	width:100%;
+	margin-bottom:7px;
+	background:#FFFFFF;
+	height:60px;
+}
+div.left{
+	margin:2%;
+	margin-right:0;
+	width:20%;
+	height:550px;
+	float:left;
+}
+
+
+div.right{
+	margin:2%;
+	margin-left:0;
+	width:75%;
+	height:550px;
+	float:right;
+}
+div.right iframe{
+	height:550px;
+	width:100%;
+	margin:auto;
+}

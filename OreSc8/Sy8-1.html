@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Ore's sy8-1</title>
+<link href="css/Sy8-1.css" rel='stylesheet' type='text/css' />
+</head>
+
+<body>
+<table class="tablein">
+
+<tr>
+<th><h2>增加快递信息</h2></th>
+</tr>
+<!--发货单-->
+<tr>
+    <td>
+	  <fieldset>
+	    <legend>发货单</legend>
+	    <label>
+		    <table class="tableout">
+			  <tr class="tableout1">
+			    <td>发货人：</td><td><input type="text" name="users"></td>
+			    <td>地址：</td><td><input type="text" name="address"></td>
+			  </tr>
+			  <tr class="tableout1">
+			    <td>电话：</td><td><input type="text" name="tel"></td>
+			    <td>邮编：</td><td><input type="text" name="email"></td>
+			  </tr>
+			</table>
+		</label>
+	  </fieldset>
+	</td>
+</tr>
+<!--收货单-->
+<tr>
+    <td>
+	  <fieldset>
+	    <legend>收货单</legend>
+	    <label>
+		    <table class="tableout">
+			  <tr class="tableout1">
+			    <td>收货人：</td><td><input type="text" name="users2"></td>
+			    <td>地址：</td><td><input type="text" name="address2"></td>
+			  </tr>
+			  <tr class="tableout1">
+			    <td>电话：</td><td><input type="text" name="tel2"></td>
+			    <td>邮编：</td><td><input type="text" name="email2"></td>
+			  </tr>
+			  <tr>
+			    <td>地区：</td>
+				<td colspan="3">
+				  <select name="地区" class="select1">
+                    <option value="Tianjin">天津</option>
+                    <option value="Shanxi">陕西</option>
+                    <option value="Beijing">北京</option>
+                    <option value="Hangzhou">杭州</option>
+                  </select>
+				</td>
+			  </tr>
+			  <tr class="radio1">
+			    <td>包装</td>
+				<td colspan="3">
+			   	  <input type="checkbox" name="sex" value="xin">木箱
+                  <input type="checkbox" name="sex" value="Apay">纸箱
+				  <input type="checkbox" name="sex" value="sa">集装箱
+                  <input type="checkbox" name="sex" value="pay">其他
+				</td>
+			  </tr>
+			  <tr class="radio1">
+			    <td>付款方式：</td>
+				<td colspan="3">
+			   	  <input type="radio" name="sex" value="Weixin" checked>微信支付
+                  <input type="radio" name="sex" value="Alipay">支付宝
+				  <input type="radio" name="sex" value="Visa">云闪付
+                  <input type="radio" name="sex" value="JDpay">京东闪付
+				</td>
+			  </tr>
+			</table>
+		</label>
+	  </fieldset>
+	</td>
+</tr>
+<!--货物信息-->
+<tr>
+    <td>
+	  <fieldset>
+	    <legend>收货单</legend>
+	    <label>
+		    <table class="tableout">
+			  <tr class="tableout2">
+			    <td>货物名称：</td>
+				<td colspan="6"><input type="text" name="way"></td>
+			  </tr>
+			  <tr class="tableout3">
+			    <td>数量：</td><td><input type="text" name="num"></td>
+			    <td>重量：</td><td><input type="text" name="wid"></td>
+				<td>发货时间：</td><td class="tableout4"><input type="text" name="time"></td>
+			  </tr>
+			</table>
+		</label>
+	  </fieldset>
+	</td>
+</tr>
+<!--提交按钮-->
+<tr class="tableout5">
+<td><input type="submit" name="buttom" value="确定" />
+<input type="submit" name="buttom2" value=" 取消" /></td>
+</tr>
+</table>
+</body>
+</html>
