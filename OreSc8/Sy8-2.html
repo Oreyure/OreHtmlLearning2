@@ -11,14 +11,31 @@
 
 <div class="left">
 <h2>请选择你的网页</h2>
-<a href="https://www.baidu.com" target="box"><img src="images/t2.png" class="img2"/></a>
-<a href="https://www.taobao.com" target="box"><img src="images/t1.png" class="img2"/></a>
-<a href="https://www.sina.com.cn" target="box"><img src="images/t4.png" class="img2"/></a>
-<a href="https://www.jd.com" target="box"><img src="images/t3.png" class="img2"/></a>
+<div onclick="changeText1(this)><img src="images/t2.png" class="img2"/></div>
+<div onclick="changeText2(this)><img src="images/t1.png" class="img2"/></div>
+<div onclick="changeText3(this)><img src="images/t4.png" class="img2"/></div>
+<div onclick="changeText4(this)><img src="images/t3.png" class="img2"/></div>
 </div>
 
-<div class="right">
-<iframe src="https://www.taobao.com" name="box"></iframe>
+<script>
+var a;
+a=getelementbyid(boxs);
+function changeText1(id) { 
+    a.innerHTML = <iframe src="https://www.taobao.com"></iframe>;
+}
+function changeText2(id) { 
+    a.innerHTML = <iframe src="https://www.baidu.com"></iframe>;
+}
+function changeText3(id) { 
+    a.innerHTML =<iframe src="https://www.jd.com"></iframe>;
+}
+function changeText4(id) { 
+    a.innerHTML = <iframe src="https://www.mi.com"></iframe>;
+}
+</script>
+  
+<div class="right" id="boxs">
+<iframe src="https://www.taobao.com"></iframe>
 </div>
 
 </div>
