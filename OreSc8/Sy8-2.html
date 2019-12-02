@@ -10,7 +10,7 @@
 <div class="main"> 
 
 <div class="left">
-<h2>请选择你的网页</h2>
+<h2 id=“test”>请选择你的网页</h2>
 <div onclick="changeText1(this)"><img src="images/t2.png" class="img2"/></div>
 <div onclick="changeText2(this)"><img src="images/t1.png" class="img2"/></div>
 <div onclick="changeText3(this)"><img src="images/t4.png" class="img2"/></div>
@@ -27,9 +27,9 @@
 
     <script>
 var a;
-a=getElementbyid(boxs);
 function changeText1(id) { 
     a= "你好";
+    getelementbyid("test").innerHTML=a;
 }
 function changeText2(id) { 
     a= "<iframe src="https://www.baidu.com"></iframe>";
