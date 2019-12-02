@@ -28,6 +28,10 @@ div.left{
 	float:left;
 }
 
+div.left div{
+width:100%;
+	height:70px;
+}
 
 div.right{
 	margin:2%;
