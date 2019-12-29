@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>王佳城的Sy12-1</title>
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	#wrap{
+		position:relative;
+		top:100px;
+		width:440px;
+		height:480px;
+		margin:auto;
+		border:2px solid #000;
+		cursor:pointer;
+	}
+	#wrap img{
+		position:absolute;
+		width:440px;
+		height:440px;
+	}
+	#wrap div{
+		position:absolute;
+		height:80px;
+		top:180px;
+		text-align:center;
+		font-size:35px;
+		width:40px;
+		background:rgba(255,255,0,0.5);
+		z-index:100;
+	}
+	#right{
+		right:0px;
+	}
+	#name{
+		position:absolute;
+		bottom:0px;
+		left:120px;
+		margin:auto;
+		font-size:30px;
+		font-weight:900;
+		text-align:center;
+		height:40px;
+		width:200px;
+	}
+</style>
+</head>
+
+<body>
+<div id="wrap">
+	<div id="left">5</div>
+	<img id="imgs" class="on" src="images/001.jpg" alt="">
+	<div id="right">2</div>
+	<p id="name">正常表情</p>
+</div>
+<script>
+	let cot=1;
+	let oImgs=document.getElementById("imgs"),
+		Left=document.getElementById("left"),
+		Right=document.getElementById("right");
+	let Name=document.getElementById("name"),
+		val=["正常表情","大脸滑稽","一脸傲娇","可怜兮兮","饥渴难耐"];
+//往右边切换
+	Right.onclick=function(){
+		if(cot<5)cot++;
+		else cot=1;
+		oImgs.src="images/00"+cot+".jpg";
+		if(cot<5)Right.innerHTML=cot+1;
+		else Right.innerHTML=1;
+		Left.innerHTML=cot-1;
+		Name.innerHTML=val[cot-1];
+	}
+//往左边切换
+	Left.onclick=function(){
+		if(cot>1)cot--;
+		else cot=5;
+		oImgs.src="images/00"+cot+".jpg";
+		if(cot>1)Left.innerHTML=cot-1;
+		else Left.innerHTML=5;
+		Right.innerHTML=cot+1;
+		Name.innerHTML=val[cot-1];
+	}
+</script>
+</body>
+</html>
